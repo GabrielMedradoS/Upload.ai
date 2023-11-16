@@ -5,13 +5,13 @@
 </div>
 
 <p align="center">
-    <img alt="Platform" src="https://img.shields.io/static/v1?label=Platform&message=PC&color=030712&labelColor=#">
+    <img alt="Platform" src="https://img.shields.io/static/v1?label=Platform&message=PC&color=030712&labelColor=262626">
     <a href="">
-        <img src="https://img.shields.io/badge/Nlw-Upload.ai-030712?&labelColor=#"></img>
+        <img src="https://img.shields.io/badge/Nlw-Upload.ai-030712?&labelColor=262626"></img>
     </a>
-    <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielMedradoS/Upload.ai?color=030712&labelColor=#">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielMedradoS/Upload.ai?color=030712&labelColor=262626">
     <a href="">
-        <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=030712&labelColor=#">
+        <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=030712&labelColor=262626">
     </a>
 </p>
 
