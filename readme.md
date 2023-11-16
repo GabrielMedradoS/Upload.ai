@@ -52,7 +52,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -78,7 +77,7 @@
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/GabrielMedradoS/Nlw-eSports.git
+$ git clone https://github.com/GabrielMedradoS/Upload.ai.git
 
 # Access the project folder at the command prompt
 $ cd web
@@ -110,6 +109,7 @@ $ npm run dev
 _`Aula 1 :`_
 
 - [Vite | documentation](https://vitejs.dev/)
+- [Shadcn/ui | documentation](https://ui.shadcn.com/docs/installation/vite)
 - [Tailwind](https://tailwindcss.com/docs/installation/using-postcss)
 
 ## Licença ⚖️
