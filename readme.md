@@ -1,7 +1,7 @@
 ## nlw upload.ai
 
 <div align='center'>
-<b>🚧Under Construction 🚧 </b>
+<b height="" width="50%">upload.ai</b>
 </div>
 
 <p align="center">
@@ -27,7 +27,7 @@
 #### Screenshot:
 
 <div align='center'>
-<b>🚧Under Construction 🚧 </b>
+<img src=".github/nlw upload.ai.png" alt="widget" width="100%">
 </div>
 
 ## Projeto 💻
@@ -46,10 +46,20 @@
 ```json
 {
   "name": "upload-ai-web",
+  "private": true,
   "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slider": "^1.1.2",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
