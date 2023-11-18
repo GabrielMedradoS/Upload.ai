@@ -175,6 +175,10 @@ _`Aula 1 :`_
 _`Aula 2 :`_
 
 - [Node | documentation](https://nodejs.org/en/docs)
+- [fastify | documentation](https://fastify.dev/docs/latest/Guides/Getting-Started/)
+- [prisma | documentation](https://www.prisma.io/docs/getting-started)
+- [cloudflare | documentation](https://developers.cloudflare.com/r2/get-started/)
+- [Amazon S3 | documentation](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-started-nodejs.html)
 
 ## Licença ⚖️
 
