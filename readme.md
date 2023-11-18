@@ -106,6 +106,51 @@ $ npm run dev
 # The project will start at the door: 5173 - access http://localhost:5173
 ```
 
+##### Back-end
+
+<details>
+    <summary>Dependencies</summary>
+
+```json
+{
+  "name": "upload-ai-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.1",
+    "tsx": "^4.1.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3"
+  }
+}
+```
+
+</details>
+
+```bash
+# Clone the repository
+$ git clone https://github.com/GabrielMedradoS/Upload.ai.git
+
+# Access the project folder at the command prompt
+$ cd upload-ai-server
+
+# Install the dependencies
+$ npm install
+
+# Run the script "start"
+$ npm run dev
+
+# The project will start at the door: 3333 - access http://localhost:3333
+```
+
 ## Tecnologias 🛠
 
 <div>
@@ -127,9 +172,13 @@ _`Aula 1 :`_
 - [Shadcn/ui | documentation](https://ui.shadcn.com/docs/installation/vite)
 - [Tailwind](https://tailwindcss.com/docs/installation/using-postcss)
 
+_`Aula 2 :`_
+
+- [Node | documentation](https://nodejs.org/en/docs)
+
 ## Licença ⚖️
 
-This project is under the MIT license. See the archive [LICENSE]() for more details.
+This project is under the MIT license. See the archive [LICENSE](https://github.com/GabrielMedradoS/Upload.ai/blob/master/License) for more details.
 
 ## Autor ✍🏾
 
