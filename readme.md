@@ -1,7 +1,7 @@
 ## nlw upload.ai
 
 <div align='center'>
-<b height="" width="50%">upload.ai</b>
+<b height="50%" width="50%">upload.ai</b>
 </div>
 
 <p align="center">
