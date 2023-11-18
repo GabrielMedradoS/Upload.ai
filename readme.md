@@ -1,8 +1,8 @@
 ## nlw upload.ai
 
-<div align='center'>
+<p align='center'>
 <b height="50%" width="50%">upload.ai</b>
-</div>
+</p>
 
 <p align="center">
     <img alt="Platform" src="https://img.shields.io/static/v1?label=Platform&message=PC&color=030712&labelColor=262626">
