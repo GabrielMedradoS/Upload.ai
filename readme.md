@@ -131,7 +131,8 @@ $ npm run dev
   "dependencies": {
     "@fastify/multipart": "^8.0.0",
     "@prisma/client": "^5.6.0",
-    "fastify": "^4.24.3"
+    "fastify": "^4.24.3",
+    "zod": "^3.22.4"
   }
 }
 ```
@@ -178,12 +179,13 @@ _`Aula 1 :`_
 _`Aula 2 :`_
 
 - [Node | documentation](https://nodejs.org/en/docs)
-- [fastify | documentation](https://fastify.dev/docs/latest/Guides/Getting-Started/)
-- [prisma | documentation](https://www.prisma.io/docs/getting-started)
-- [cloudflare | documentation](https://developers.cloudflare.com/r2/get-started/)
+- [Fastify | documentation](https://fastify.dev/docs/latest/Guides/Getting-Started/)
+- [Prisma | documentation](https://www.prisma.io/docs/getting-started)
+- [Cloudflare | documentation](https://developers.cloudflare.com/r2/get-started/)
 - [Amazon S3 | documentation](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-started-nodejs.html)
-- [fastify-multipart](https://github.com/fastify/fastify-multipart)
+- [Fastify-multipart](https://github.com/fastify/fastify-multipart)
 - [Express-multer](https://expressjs.com/en/resources/middleware/multer.html)
+- [Zod | documentation](https://www.npmjs.com/package/zod)
 
 ## Licença ⚖️
 

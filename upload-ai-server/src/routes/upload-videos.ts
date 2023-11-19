@@ -16,17 +16,17 @@ export async function uploadVideoRoute(app: FastifyInstance) {
     },
   });
 
-  app.post("/prompt", async (request, reply) => {
+  app.post("/videos", async (request, response) => {
     const data = await request.file();
 
     if (!data) {
-      return reply.status(400).send({ error: "Missing file input!" });
+      return response.status(400).send({ error: "Missing file input!" });
     }
 
     const extension = path.extname(data.filename);
 
     if (extension != ".mp3") {
-      return reply
+      return response
         .status(400)
         .send({ error: "Invalid input type, please upload a MP3" });
     }
