@@ -118,16 +118,19 @@ $ npm run dev
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.9.1",
+    "prisma": "^5.6.0",
     "tsx": "^4.1.3",
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@fastify/multipart": "^8.0.0",
+    "@prisma/client": "^5.6.0",
     "fastify": "^4.24.3"
   }
 }
@@ -179,6 +182,8 @@ _`Aula 2 :`_
 - [prisma | documentation](https://www.prisma.io/docs/getting-started)
 - [cloudflare | documentation](https://developers.cloudflare.com/r2/get-started/)
 - [Amazon S3 | documentation](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-started-nodejs.html)
+- [fastify-multipart](https://github.com/fastify/fastify-multipart)
+- [Express-multer](https://expressjs.com/en/resources/middleware/multer.html)
 
 ## Licença ⚖️
 
