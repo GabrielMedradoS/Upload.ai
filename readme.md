@@ -130,6 +130,7 @@ $ npm run dev
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@fastify/cors": "^8.4.1",
     "@fastify/multipart": "^8.0.0",
     "@prisma/client": "^5.6.0",
     "fastify": "^4.24.3",
