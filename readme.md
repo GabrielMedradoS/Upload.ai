@@ -123,7 +123,8 @@ $ npm run dev
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.9.1",
+    "@types/node": "^20.9.2",
+    "dotenv": "^16.3.1",
     "prisma": "^5.6.0",
     "tsx": "^4.1.3",
     "typescript": "^5.2.2"
@@ -132,6 +133,7 @@ $ npm run dev
     "@fastify/multipart": "^8.0.0",
     "@prisma/client": "^5.6.0",
     "fastify": "^4.24.3",
+    "openai": "^4.19.1",
     "zod": "^3.22.4"
   }
 }
