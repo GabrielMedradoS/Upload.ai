@@ -194,7 +194,7 @@ _`Aula 2 :`_
 
 _`Aula 3 :`_
 
--[ffmpegwasm | documentation](https://ffmpegwasm.netlify.app/docs/getting-started/installation)
+- [ffmpegwasm | documentation](https://ffmpegwasm.netlify.app/docs/getting-started/installation)
 
 ## Licença ⚖️
 
