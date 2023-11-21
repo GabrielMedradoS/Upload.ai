@@ -55,6 +55,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.7",
+    "@ffmpeg/util": "^0.12.1",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-select": "^2.0.0",
@@ -189,6 +191,10 @@ _`Aula 2 :`_
 - [Fastify-multipart](https://github.com/fastify/fastify-multipart)
 - [Express-multer](https://expressjs.com/en/resources/middleware/multer.html)
 - [Zod | documentation](https://www.npmjs.com/package/zod)
+
+_`Aula 3 :`_
+
+-[ffmpegwasm | documentation](https://ffmpegwasm.netlify.app/docs/getting-started/installation)
 
 ## Licença ⚖️
 
