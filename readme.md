@@ -63,6 +63,7 @@
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slider": "^1.1.2",
     "@radix-ui/react-slot": "^1.0.2",
+    "axios": "^1.6.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.292.0",
@@ -135,6 +136,7 @@ $ npm run dev
     "@fastify/cors": "^8.4.1",
     "@fastify/multipart": "^8.0.0",
     "@prisma/client": "^5.6.0",
+    "ai": "^2.2.25",
     "fastify": "^4.24.3",
     "openai": "^4.19.1",
     "zod": "^3.22.4"

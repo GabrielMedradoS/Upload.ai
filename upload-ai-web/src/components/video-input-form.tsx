@@ -6,9 +6,30 @@ import { Button } from "./ui/button";
 import { useState, ChangeEvent, useMemo, FormEvent, useRef } from "react";
 import { getFFmpeg } from "@/lib/ffmpeg";
 import { fetchFile } from "@ffmpeg/util";
+import { api } from "@/lib/axios";
 
-export function VideoInputForm() {
+type status =
+  | "awaiting"
+  | "converting"
+  | "uploading"
+  | "generating"
+  | "success";
+
+const statusMessage = {
+  converting: "Convertendo...",
+  generating: "Transcrevendo...",
+  uploading: "Carregando...",
+  success: "Sucesso!",
+};
+
+interface VideoInputFormProps {
+  onVideoUploaded: (id: string) => void;
+}
+
+export function VideoInputForm(props: VideoInputFormProps) {
   const [videoFile, setVideoFile] = useState<File | null>(null);
+  const [status, setStatus] = useState<status>("awaiting");
+
   const promptInputRef = useRef<HTMLTextAreaElement>(null);
 
   function handleFileSelected(event: ChangeEvent<HTMLInputElement>) {
@@ -71,10 +92,29 @@ export function VideoInputForm() {
       return;
     }
 
+    setStatus("converting");
     // converter video em audio
     const audioFile = await convertVideoToAudio(videoFile);
 
-    console.log(audioFile);
+    const data = new FormData();
+
+    data.append("file", audioFile);
+
+    setStatus("uploading");
+
+    const response = await api.post("/videos", data);
+
+    const videoId = response.data.video.id;
+
+    setStatus("generating");
+
+    await api.post(`/videos/${videoId}/transcription`, {
+      prompt,
+    });
+
+    setStatus("success");
+
+    props.onVideoUploaded(videoId);
   }
 
   const previewURL = useMemo(() => {
@@ -125,9 +165,20 @@ export function VideoInputForm() {
         />
       </div>
 
-      <Button type="submit" className="w-full">
-        Carregar video
-        <Upload className="w-4 h-4 ml-2" />
+      <Button
+        data-success={status === "success"}
+        disabled={status !== "awaiting"}
+        type="submit"
+        className="w-full data-[success=true]:bg-emerald-400"
+      >
+        {status === "awaiting" ? (
+          <>
+            Carregar video
+            <Upload className="w-4 h-4 ml-2" />
+          </>
+        ) : (
+          statusMessage[status]
+        )}
       </Button>
     </form>
   );
