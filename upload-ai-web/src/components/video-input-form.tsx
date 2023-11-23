@@ -135,7 +135,7 @@ export function VideoInputForm(props: VideoInputFormProps) {
           <video
             src={previewURL}
             controls={false}
-            className="pointer-events-none absolute inset-0"
+            className="w-full h-full pointer-events-none absolute inset-0"
           />
         ) : (
           <>
