@@ -27,7 +27,7 @@
 #### Screenshot:
 
 <div align='center'>
-<img src=".github/nlw upload.ai.png" alt="widget" width="100%">
+<img src=".github/github image.png" alt="widget" width="100%">
 </div>
 
 ## Projeto 💻
